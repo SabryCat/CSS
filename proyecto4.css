@@ -1,0 +1,110 @@
+
+#contenedor{
+	width: 100%;
+	height: 100%;
+	font-family: 'Miriam Libre', sans-serif;
+	background-color:#E6ECF6;
+	
+}
+
+h2 {
+
+	background-color: #c6e3e7;
+    color: #000;
+    font-variant: small-caps;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+	
+
+}
+#micontenido{
+
+	width: 100%;
+	height: 30px;
+}
+#navbar {
+	
+	width: 20%;
+	height: 100%;
+	overflow-x: auto;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:#E6ECF6;	
+}
+#main-doc{
+	width: 79%;
+	position:relative;
+	float: right;
+}
+
+header{
+	margin-left: 10px;
+	
+}
+
+
+/* lista menu principal */
+
+#lista{
+
+	list-style: none;
+	margin-left: -40px;
+}
+
+#lista li{
+
+	padding: 10px 5px 10px 10px ;
+	border: 1px solid #c6e3e7;
+
+}
+#lista li:hover{
+
+	background-color: #c6e3e7;
+}
+#lista li a {
+
+	text-decoration: none;
+	color: black;
+}
+
+#lista li a:hover{
+
+	color: seagreen;
+}
+
+/* MENU CONTENIDO */
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+
+}
+
+/* sintaxis */
+
+div #sintaxis {
+
+    width: 30%;
+    float: left;
+	margin-right: 1%;
+}
+caption {
+	visibility: hidden;
+}
+tr {
+    background-color: #E6ECF6;
+    color: #222;
+}
